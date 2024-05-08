@@ -1,0 +1,60 @@
+body {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffe5b4; /* peaches and cream */
+    color: #7d5147; /* dark peach */
+}
+
+header {
+    background-color: #f9d9b6; /* light peach */
+    color: #7d5147; /* dark peach */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px 30px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 1.2em;
+}
+img {
+    width: 100%;
+}
+
+footer {
+    background-color: #f9d9b6; /* light peach */
+    color: #7d5147; /* dark peach */
+    text-align: center;
+    padding: 30px;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+footer a {
+    color: #7d5147; /* dark peach */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #bf8d78; /* light peach */
+}
